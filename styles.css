@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+body {
+	height:100vh;
+}
+
+.moviePic {
+	width:400px;
+	height:150px;
+	opacity:90%;
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+	
+}
+
+.movieDetail {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:400px;
+	text-align:left;
+	font-size:16px;
+	line-height:1.25;
+}
